@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootGitopsApplication {
 	
-	@GetMapping
+	@GetMapping("/welcome")
 	public String welcome(){
 		return "Welcome to Java With GitOps !";
 	}
